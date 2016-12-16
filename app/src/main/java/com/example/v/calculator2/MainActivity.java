@@ -23,10 +23,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mFirstNumber=(EditText) findViewById(R.id.firstNumber);
+        mSecondNumber=(EditText) findViewById(R.id.secondNumber);
         mSum= (Button) findViewById(R.id.sum);
         mDifference= (Button) findViewById(R.id.difference);
         mDivision= (Button) findViewById(R.id.division);
         mDobytok= (Button) findViewById(R.id.dobytok);
+
         mSum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -93,5 +96,5 @@ public class MainActivity extends AppCompatActivity {
         showToast(n1 * n2);
     }
 
-    
+
 }

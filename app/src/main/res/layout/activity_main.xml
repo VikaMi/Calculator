@@ -64,8 +64,8 @@
         tools:text="write first number"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/editText2"
-        android:layout_toStartOf="@+id/editText2"
+        android:layout_toLeftOf="@+id/secondNumber"
+        android:layout_toStartOf="@+id/secondNumber"
         android:layout_marginRight="12dp"
         android:layout_marginEnd="12dp" />
 
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/secondNumber"
         android:text="write second number"
         android:textAppearance="@style/TextAppearance.AppCompat"
         style="@style/Widget.AppCompat.Button.Colored"
